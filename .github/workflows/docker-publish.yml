@@ -30,6 +30,8 @@ jobs:
         with:
           context: .
           push: true
+          
           tags: |
-            ghcr.io/${{ github.repository_owner }}/online-shopping-purchase-prediction:latest
-            ghcr.io/${{ github.repository_owner }}/online-shopping-purchase-prediction:sha-${{ github.sha }}
+            ghcr.io/tejasaisathwik/online-shopping-purchase-prediction:latest
+            ghcr.io/tejasaisathwik/online-shopping-purchase-prediction:sha-${{ github.sha }}
+
